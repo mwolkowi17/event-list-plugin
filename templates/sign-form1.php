@@ -5,7 +5,7 @@ if (! defined('ABSPATH')) {
 ?>
 
 <div class="mrp-reservation-form-container">
-    <h2>Sign up for event</h2>
+    <h2>Event registration</h2>
     <form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="POST" class="mrp-form">
         <!-- Security Nonce Field -->
         <?php wp_nonce_field('elp_submit_reservation_action', 'elp_reservation_nonce'); ?>
@@ -22,6 +22,6 @@ if (! defined('ABSPATH')) {
             <label for="user_email">Email Address:</label>
             <input type="email" id="user_email" name="user_email" required>
         </div>
-        <button type="submit" class="mrp-submit-btn">Enrolle</button>
+        <button type="submit" class="mrp-submit-btn">Register</button>
 
 </div>
