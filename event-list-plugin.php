@@ -89,3 +89,11 @@ function enrolled_people_list_page()
 add_action('admin_menu', 'enrolled_people_list');
 
 wp_enqueue_style('enroll-style', plugin_dir_url(__FILE__) . 'templates/style.css', array(), '1.0');
+
+//rest api module point of registred people
+add_action('rest_api_init', 'add_To_Api_2');
+
+function add_To_Api_2()
+{
+    include plugin_dir_path(__FILE__) . 'api/event-list-endpoint.php';
+};
