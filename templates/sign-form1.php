@@ -23,5 +23,5 @@ if (! defined('ABSPATH')) {
             <input type="email" id="user_email" name="user_email" required>
         </div>
         <button type="submit" class="mrp-submit-btn">Register</button>
-
+    </form>
 </div>
