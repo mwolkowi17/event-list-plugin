@@ -15,3 +15,5 @@ function handle_get_all1($data)
 
     return $user;
 }
+
+// adress: http://localhost/app_poligon/wp-json/event-list-plugin/v1/test1
