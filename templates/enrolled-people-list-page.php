@@ -28,6 +28,7 @@
              </tr>
          <?php } ?>
      </table>
+     <p><?php echo "ilość osób zapisanych: " . count($user) ?></p>
  </div>
 
  <style>
